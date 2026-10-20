@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Wikipedia Style</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            color: #202122;
+        }
+
+        h1 {
+            font-family: Georgia, serif;
+            font-size: 40px;
+            font-weight: normal;
+            margin: 0;
+            border-bottom: 1px solid #aaa;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #aaa;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #36c;
+            margin-right: 18px;
+        }
+
+        .warning {
+            background-color: #f8f8f8;
+            border: 1px solid #aaa;
+            border-left: 12px solid #f90;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 750px;
+            line-height: 1.8;
+        }
+
+        .content {
+            display: flex;
+            gap: 25px;
+            align-items: flex-start;
+        }
+
+        .text {
+            flex: 1;
+            font-size: 21px;
+            line-height: 1.8;
+        }
+
+        .text a {
+            color: #36c;
+            text-decoration: none;
+        }
+
+        .logo {
+            width: 45%;
+            max-width: 450px;
+        }
+
+        .logo img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>HTML</h1>
+
+    <nav>
+        <div>
+            <a href="#">Article</a>
+            <a href="#">Talk</a>
+        </div>
+
+        <div>
+            <a href="#">Read</a>
+            <a href="#">View source</a>
+            <a href="#">View history</a>
+        </div>
+    </nav>
+
+    <p style="margin-top: 20px;">
+        From Wikipedia, the free encyclopedia
+    </p>
+
+    <p style="margin: 35px 40px; font-style: italic;">
+        ".htm" and ".html" redirect here. For other uses, see HTML.
+    </p>
+
+    <div class="warning">
+        <strong>This article has multiple issues.</strong>
+        Please help improve it or discuss these issues on the talk page.
+
+        <ul>
+            <li>This article contains instructions or advice.</li>
+            <li>This article needs more citations.</li>
+            <li>This article may require copy editing.</li>
+        </ul>
+    </div>
+
+    <div class="content">
+
+        <div class="text">
+            <strong>Hypertext Markup Language (HTML)</strong>
+            is the standard
+            <a href="#">markup language</a>
+            for documents designed to be displayed in a
+            <a href="#">web browser</a>.
+
+            It defines the content and structure of
+            <a href="#">web content</a>.
+
+            It is often assisted by technologies such as
+            <a href="#">Cascading Style Sheets (CSS)</a>
+            and scripting languages such as
+            <a href="#">JavaScript</a>.
+            Web browsers receive HTML documents from a web server or from local storage and render the documents into
+            multimedia web pages. HTML describes the structure of a web page semantically and originally included cues
+            for its appearance.
+            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as
+            interactive forms may be embedded into the rendered page. HTML provides a means to create structured
+            documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and
+            other items. HTML elements are delineated by tags, written using angle brackets. Tags such as <img> and
+            <input> directly introduce content into the page. Other tags such as <p> and its corresponding closing tag
+            </p> surround and provide information about document text and may include sub-element tags. Browsers do not
+            display the HTML tags, but use them to interpret the content of the page.
+            <br>
+
+            HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and
+            content of web pages. The inclusion of CSS defines the look and layout of content. The World Wide Web
+            Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged
+            the use of CSS over explicit presentational HTML since 1997.[3]
+        </div>
+
+        <div class="logo">
+            <h2 style="text-align:center; background:#ddd;">
+                HTML
+            </h2>
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo">
+        </div>
+
+
+    </div>
+    <div class="">
+        <p>
+            The first publicly available description of HTML was a document called "HTML Tags",[6] first mentioned on
+            the Internet by Tim Berners-Lee in late 1991.[7][8] It describes 18 elements comprising the initial,
+            relatively simple design of HTML. Except for the hyperlink tag, these were strongly influenced by CERN SGML,
+            an in-house Standard Generalized Markup Language (SGML)-based documentation format at CERN. Eleven of these
+            elements still exist in HTML 4.[9]
+
+        </p>
+
+    </div>
+    <br>
+    <div>
+        <p>
+            HTML is a markup language that web browsers use to interpret and compose text, images, and other material
+            into visible or audible web pages. Default characteristics for every item of HTML markup are defined in the
+            browser, and these characteristics can be altered or enhanced by the web page designer's additional use of
+            CSS. Many of the text elements are mentioned in the 1988 ISO technical report TR 9537 Techniques for using
+            SGML, which describes the features of early text formatting languages such as that used by the RUNOFF
+            command developed in the early 1960s for the CTSS (Compatible Time-Sharing System) operating system. These
+            formatting commands were derived from the commands used by typesetters to manually format documents.
+            However, the SGML concept of generalized markup is based on elements (nested annotated ranges with
+            attributes) rather than merely print effects, with separate structure and markup. HTML has been
+            progressively moved in this direction with CSS.
+        </p>
+
+    </div>
+
+
+
+</body>
+
+</html>
